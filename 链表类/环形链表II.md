@@ -17,18 +17,7 @@ class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
 
-        
-class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
-        slow, fast = head, head
-        while slow and fast.next;:
-            slow = slow.next
-            fast = fast.next.next
-            if slow == fast:
-                return True
-            if not slow or not fast:
-                return False
 
-        return False
+
 
 ```
